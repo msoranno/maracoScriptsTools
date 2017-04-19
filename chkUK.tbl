@@ -1,0 +1,52 @@
+[MaskTable]
+productName = A2iA CheckReader
+productVersion = 9
+productRelease = 0
+keyType = String
+
+[MaskTable.defaultDefinition]
+imageName = \\kalevala\images_w\NCR\UK\2017\2f.bmp
+
+[MaskTable.defaultDefinition.doc]
+documentType = Check
+
+[MaskTable.defaultDefinition.doc.printText.location]
+x_tl = 0.000000
+x_br = 0.000000
+y_tl = 0.000000
+y_br = 0.000000
+unit = Millimetres
+
+[MaskTable.defaultDefinition.doc.documentTypeInfo.CaseCheck.check]
+country = UK
+invalidityDetection = Yes
+
+[MaskTable.defaultDefinition.doc.documentTypeInfo.CaseCheck.check.fields]
+nameOfPayee = Yes
+date = Yes
+codeline = Yes
+
+[MaskTable.defaultDefinition.doc.documentTypeInfo.CaseCheck.check.fields.payeeNameZone]
+x_tl = 0.000000
+x_br = 0.000000
+y_tl = 0.000000
+y_br = 0.000000
+unit = Millimetres
+
+[MaskTable.defaultDefinition.doc.documentTypeInfo.CaseCheck.check.invalidityDetails]
+CAR = No
+LAR = No
+Signature = Yes
+PayeeName = No
+Date = No
+Codeline = No
+PayorsNameAndAddress = No
+PlaceOfIssue = No
+PayeeEndorsement = No
+BankOfFirstDepositEndorsement = No
+TransitEndorsement = No
+PODEndorsement = No
+RearAccountNumber = No
+Memoline = No
+PayorsBank = No
+
