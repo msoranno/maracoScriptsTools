@@ -1,8 +1,8 @@
 #!/usr/bin/python
 from boto3.session import Session
 
-key_id='AKIAJXVTNHATUQ4MTX4A'
-secre_id='TcYE26lQOJJmZ0PsZaBC58wTrRw4Af4P5zchBXfW'
+key_id=''
+secre_id=''
 session = Session(aws_access_key_id = key_id, aws_secret_access_key = secre_id)
 s3 = session.resource('s3')
 #s3.create_bucket(Bucket='bucketcreatedfrompythonoutside')
