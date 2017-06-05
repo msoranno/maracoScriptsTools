@@ -2,7 +2,8 @@
 utilidades 
 
 #create_db2_inst.sh
-    Este script, esta pensado para ejecutar sobre nuevos entornos, pero haciendo pequeños retoques puede usarse para crear instancias sobre entornos ya usados.
+
+    Este script, esta pensado para ejecutar sobre nuevos entornos, pero haciendo pequeños retoques puede usarse para crear           instancias sobre entornos ya usados.
 
     El script debe ejecutarse con root.
 
